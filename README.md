@@ -12,7 +12,7 @@ Este é um projeto simples de React criado com **Vite**, utilizando o **React Ro
 - Layout compartilhado com `<Outlet />`
 - Rotas aninhadas
 - Página de erro personalizada (`*`)
-- Configuração pronta para deploy no GitHub Pages via `base: '/'`
+- Configuração pronta para deploy no GitHub Pages via `base: '/react-router/'`
 
 ## 📦 Tecnologias
 
