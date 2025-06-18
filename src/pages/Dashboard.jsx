@@ -1,9 +1,9 @@
-const About = () => {
+const Dashborad = ({user}) => {
     return (
         <section className="section">
-            <h2>About</h2>
+            <h4>Hello, {user?.name}</h4>
         </section>
     )
 }
 
-export default About;
+export default Dashborad;
