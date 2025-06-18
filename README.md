@@ -1,12 +1,29 @@
-# React + Vite
+# 🧭 React Router Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto simples de React criado com **Vite**, utilizando o **React Router DOM** para navegação entre páginas. Ele serve como prática para entender rotas aninhadas, páginas de erro e layouts compartilhados em aplicações Single Page Application (SPA).
 
-Currently, two official plugins are available:
+## 🔗 Link do projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> Acesse em breve via GitHub Pages: [https://viniciusmendeslima.github.io/react-router/](https://viniciusmendeslima.github.io/react-router/)
 
-## Expanding the ESLint configuration
+## 🚀 Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Roteamento com `react-router-dom@6+`
+- Layout compartilhado com `<Outlet />`
+- Rotas aninhadas
+- Página de erro personalizada (`*`)
+- Configuração pronta para deploy no GitHub Pages via `base: '/'`
+
+## 📦 Tecnologias
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [React Router DOM](https://reactrouter.com/en/main)
+
+## Inicie o servidor de desenvolvimento:
+- npm install
+- npm run dev
+
+Este projeto foi desenvolvido com base no tutorial do canal **freecodecamp.org**:
+
+🔗 [ React Router 6 – Tutorial for Beginners  (YouTube)](https://www.youtube.com/watch?v=59IXY5IDrBA)
