@@ -16,7 +16,7 @@ import { useState } from "react";
 function App() {
   const [user, setUser] = useState();
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/react-router">
       <Routes>
         <Route path="/" element={<SharedLayout />}>
           <Route index element={<Home />} />
